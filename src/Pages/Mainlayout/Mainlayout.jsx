@@ -14,7 +14,7 @@ export default function Mainlayout() {
             </div>
 
             <div class={`relative transition-all  flex-1 `}>
-                <div onClick={handleSideNav} className={`btn btn-xs ${isOpen ? 'xs:hidden' : ''} sm:block bg-gray-200 absolute text-sm text-bold left-0 text-[#c29c82] top-20 ${!isOpen ? 'animate-pulse' : ''}`}>{isOpen ? '<<' : '>>'}</div>
+                <div onClick={handleSideNav} className={`btn btn-xs ${isOpen ? 'xs:hidden' : ''} sm:block bg-gray-200 absolute text-sm text-bold left-[-10px] text-[#c29c82] top-20 ${!isOpen ? 'animate-pulse' : ''}`}>{isOpen ? '<<' : '>>'}</div>
                 <Home />
             </div>
         </div>
